@@ -9,7 +9,7 @@
 -- +------+----------------------+------+--------+
 
 SELECT year,name,wins,losses 
-from teams 
-order by losses DESC 
+FROM teams 
+ORDER BY losses DESC 
 LIMIT 3; 
 
